@@ -102,7 +102,7 @@
     background-color: rgba(71, 125, 17, 0.15);
 }
 .img-container{
-    height: 350px;
+    height: 300px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -112,6 +112,24 @@
 .img-container img{
     height: 70%;
 
+}
+
+/* service part */
+.service{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 5px;
+}
+.service div p{
+    color: var(--primary-text-color);
+    font-size: 18px;
+    padding: 5px 0;
 }
 
 
@@ -147,6 +165,13 @@
     }
     .cart{
         justify-content: center;
+    }
+    .service{
+        width: 300px;
+        flex-direction: column;
+    }
+    .service div{
+        margin-bottom: 25px;
     }
 }
 
