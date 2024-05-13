@@ -313,6 +313,31 @@
     .service div{
         margin-bottom: 25px;
     }
+    .offer-container{
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    .offer-img{
+        order: 1;
+        margin-bottom: 50px;
+    }
+    .offer-text{
+        order: 2;
+    }
+    .instragram-text{
+        max-width: 350px;
+    }
+    .instragram-img{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .form{
+        max-width: 90%;
+        padding: 15px 20px;
+    }
+    .footer-container div{
+        width: 90%;
+    }
 }
 
 /* Responsive For Tablet */
@@ -336,5 +361,10 @@
     }
     .img-container{
         height: 300px;
+    }
+    .instragram-img{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
     }
 }
