@@ -59,7 +59,7 @@
 /* Featured Part */
 .feature-text{
     width: 50%;
-    margin: 100px auto;
+    margin: 70px auto;
     text-align: center;
 }
 .feature-text h4{
@@ -74,7 +74,7 @@
 }
 .feature-cart{
     width: 80%;
-    margin: 0 auto;
+    margin: 100px auto;
     display: flex;
     align-items: stretch;
     justify-content: space-evenly;
@@ -125,11 +125,49 @@
     text-align: center;
     background-color: rgba(39, 39, 39, 0.05);
     border-radius: 5px;
+    margin-bottom: 100px;
 }
 .service div p{
     color: var(--primary-text-color);
     font-size: 18px;
     padding: 5px 0;
+}
+
+/* Offer Part */
+.offer{
+    width: 100%;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-bottom: 100px;
+}
+.offer-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.offer-text{
+    max-width: 500px;
+    text-align: center;
+}
+.offer-text h4{
+    font-size: 1.5rem;
+    color: var(--primary-header-color);
+    margin-bottom: 24px;
+}
+.offer-text h4 span{
+    color: #E55473;
+}
+.offer-text p{
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: var(--primary-text-color);
+}
+.offer-img{
+    max-width: 500px;
+}
+.offer-img img{
+    max-width: 250px;
 }
 
 
