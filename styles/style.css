@@ -47,12 +47,12 @@
 }
 .primary-btn{
     border: none;
-    padding: 18px 40px;
+    padding: 10px 30px;
     border-radius: 10px;
     font-weight: bold;
     background-color: #E55473;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -168,6 +168,81 @@
 }
 .offer-img img{
     max-width: 250px;
+}
+
+
+/* Instragram part */
+.instragram{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.instragram-text{
+    max-width: 500px;
+    text-align: center;
+    margin: 50px auto;
+}
+.instragram-text h4{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: var(--primary-header-color);
+    margin-bottom: 10px;
+}
+.instragram-text p{
+    font-size: 15px;
+    color: var(--primary-text-color);
+
+}
+.instragram-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.instragram-img img{
+    max-width: 250px;
+}
+
+/* Form Part */
+.form{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 0;
+    margin-bottom: 100px;
+    background-image: url('../Flower-Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.form-text{
+    margin: 0 auto;
+    text-align: center;
+}
+.form-text h4{
+    margin: 10px 0;
+    font-size: 1.7rem;
+    color: var(--primary-header-color);
+    font-weight: bold;
+}
+.form-text p{
+    font-size: 15px;
+    color: var(--primary-text-color);
+    margin-bottom: 10px;
+}
+.form form{
+    max-width: 600px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.form form input{
+    width: 80%;
+    padding: 10px 8px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 5px;
 }
 
 
