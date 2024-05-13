@@ -244,6 +244,33 @@
     background-color: #fff;
     border-radius: 5px;
 }
+/* Footer Part */
+.footer-container{
+    width: 100%;
+    background-color: #111010;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+.footer-container div{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.footer-container h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.footer-container h4 span{
+    color: #E55473;
+}
+.footer-container p{
+    padding: 10px 0;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.9);
+}
+#copy-right-text{
+    color: rgba(255, 255, 255, 0.4);
+}
 
 
 
